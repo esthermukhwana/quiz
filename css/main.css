@@ -1,0 +1,75 @@
+body{
+	background-color: #fff;
+	background-image: url(../images/land3.jpg);
+	background-image: no-repeat;
+	
+}
+
+header{
+	background-color: red;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	line-height: 3em;
+	position: fixed;
+	top: 0px;
+
+}
+
+.container{
+	background-color:rgba(0,0,0,0.6);
+	width: 500px;
+	margin: 90px auto;
+	height: 700px;
+	position: relative;
+	z-index: -1;
+	
+	
+	
+	
+}
+
+.box1{
+	background-color: blue;
+	position: absolute;
+	padding: 30px;
+	height: 100px;
+	width: 100px;
+	top: -20px;
+	left: -20px;
+
+}
+
+.box3{
+	background-color: blue;
+	position: absolute;
+	padding: 30px;
+	height: 100px;
+	width: 100px;
+	top: -20px;
+	right: -20px;
+
+}
+
+
+.box2{
+	background-color: blue;
+	position: absolute;
+	padding: 30px;
+	height: 100px;
+	width: 100px;
+	bottom: -20px;
+	left: -20px;
+
+
+}
+
+.box4{
+	background-color: blue;
+	position: absolute;
+	padding: 30px;
+	height: 100px;
+	width: 100px;
+	bottom: -20px;
+	right: -20px;
+}
